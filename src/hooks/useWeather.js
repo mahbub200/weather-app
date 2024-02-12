@@ -74,6 +74,7 @@ const useWeather = () => {
       fetchWeatherData(position.coords.latitude, position.coords.longitude);
     });
   }, []);
+
   return {
     weatherData,
     error,
